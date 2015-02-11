@@ -1,0 +1,5 @@
+FROM	main.o writer.o dragonball.o inconvex.o tunnel.o bigballs.o
+TO	Lipton.exe
+SMALLCODE
+SMALLDATA
+NODEBUG

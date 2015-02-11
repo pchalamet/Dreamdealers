@@ -1,0 +1,132 @@
+
+DrdTest_Article_Questions
+	BEGIN_ARTICLE
+	LINE <"°2Are you worth being a Dreamdealer member ?">
+	LINE <"">
+	LINE <"°1Yes, it's obvious, this question already came to your mind!">
+	LINE <"Today,we give you the opportunity to know. ">
+	LINE <"Concentrate yourself, think before answering and just try to be yourself...">
+	LINE <"Let's start now this unusual psycho-test ! ">
+	LINE <"">
+	LINE <"°21-In your opinion,what is the average delay in order to release each issue">
+	LINE <"of a message box ?°1">
+	LINE <"">
+	LINE <"A- Each month, let's reach the top ! ">
+	LINE <"B- Each season, following the weather !">
+	LINE <"C- Each party, let's show our power !">
+	LINE <"D- Each year, turtle speed ahead ! ">
+	LINE <"">
+	LINE <"°22-Between the following parties, which one wouldn't you miss ?°1">
+	LINE <"">
+	LINE <"A- The beach party II in Martigues ?">
+	LINE <"B- The party III in Denmark ?">
+	LINE <"C- The garden V at the seaside ?">
+	LINE <"D- The bonze II at Sun's temple ?">
+	LINE <"">
+	LINE <"°23-It's summertime, you want to visit a concert...°1">
+	LINE <"">
+	LINE <"A- Let's visit J.M.Jarre on stage at the Mont-Saint-Michel !!!">
+	LINE <"B- Whaooo...a Kyd-Balle techno-hardcore performance !">
+	LINE <"C- Nope ! What about listening some stunning amiga-modules instead ? I will">
+	LINE <"   buy some pespi !">
+	LINE <"D- Why paying ? We will organize one ! Sun will bring his flute and we still">
+	LINE <"   have a whole afternoon to create some home-made instruments ! ">
+	LINE <"">
+	LINE <"°24-First prize at next party is 3000 dollars US !°1">
+	LINE <"">
+	LINE <"A- Sorry, I don't want to cancel my winter holidays .">
+	LINE <"B- Hey Redlight, what about coding a 3 disks trackmo with a techno tune ?">
+	LINE <"   You will surely break some records...Fame is so gooood !">
+	LINE <"C- Is there a cafeteria at the party ?">
+	LINE <"D- The cacolac project will be released there, but are 3 months enough as">
+	LINE <"   an intro delay for us ?">
+	END_PAGE
+	LINE <"°25-A wellknown foreign and skilled group asks you about building a section..°1">
+	LINE <"">
+	LINE <"A- Will I get some stickers and a badge ??">
+	LINE <"B- Well, I never met the guys, but they are in the Eurochart top five !">
+	LINE <"C- Hey, how will you organize some internal meetings ? And what about your">
+	LINE <"   phone bill ? Fame is expensive little boy !">
+	LINE <"D- They will surely give me some stunning accounts on their BBS !!!">
+	LINE <"">
+	LINE <"°26-How could you make a zooming and rotating effect ?°1">
+	LINE <"">
+	LINE <"A- We will make an IFF animation ! Nobody will notice the difference !">
+	LINE <"B- Well, everybody is zooming nowadays... I prefer good old 3D ! ">
+	LINE <"C- We have to do it better than the demo we leeched yesterday...at least ">
+	LINE <"   overscan and aga mode ! ">
+	LINE <"D-Just load an IFF picture, then approach your screen for the zoom, and ">
+	LINE <"  rotate the screen for the rotation...You can also get a new stroboscopic">
+	LINE <"  effect with the lighting gadget of your screen ! ">
+	END_PAGE
+	LINE <"°27- When you look at yourself in a mirror you feel like...°1">
+	LINE <"">
+	LINE <"A- A sexual bomb">
+	LINE <"B- The new brother of Bart Simpson">
+	LINE <"C- Michael Jordan">
+	LINE <"D- A martian">
+	LINE <"">
+	LINE <"">
+	LINE <"°3AND NOW... CHECK YOUR RESULT !!">
+	END_ARTICLE
+
+
+DrdTest_Article_Results
+	BEGIN_ARTICLE
+	LINE <"">
+	LINE <"°2                   Ok ! Time for results now !!!!">
+	LINE <"">
+	LINE <"">
+	LINE <"°1I hope you wrote down your answers on a paper sheet so that you are able">
+	LINE <" to calculate your average mark now ! Here is the way to proceed...">
+	LINE <"">
+	LINE <"">
+	LINE <"                °2Your answer    °1-A-     °2-B-     °3-C-     °1-D-">
+	LINE <"">
+	LINE <"                °3Question 1)    °1-1-     °2-3-     °3-2-     °1-4-">
+	LINE <"                °3Question 2)    °1-1-     °2-3-     °3-4-     °1-4-">
+	LINE <"                °3Question 3)    °1-2-     °2-1-     °3-2-     °1-4-">
+	LINE <"                °3Question 4)    °1-2-     °2-1-     °3-3-     °1-4-">
+	LINE <"                °3Question 5)    °1-2-     °2-1-     °3-4-     °1-1-">
+	LINE <"                °3Question 6)    °1-2-     °2-4-     °3-1-     °1-4-">
+	LINE <"                °3Question 7)    °1-2-     °2-2-     °3-4-     °1-3-">
+	LINE <"">
+	LINE <"">
+	LINE <" Just make the addition of the marks you get for each of the 7 questions..">
+	END_PAGE
+
+	LINE <"">
+	LINE <"°1-If you've got a total of °226 or more°1 , you are really worth beeing a">
+	LINE <" member of Dreamdealers ! What about contacting us ? You will get a poster">
+	LINE <" from our family, and perhaps a free member card of our fan club !">
+	LINE <"">
+	LINE <"-°2Between 20 and 26°1...Well you sometimes feel a bit Dream-dealer in your">
+	LINE <" mind...That's not bad ! But something is missing ! Think about it !">
+	LINE <"">
+	LINE <"-°2Between 15 and 20°1...There are things you enjoy in our religion...and">
+	LINE <" others not! Take care of this, it could be dangerous one day.And stop">
+	LINE <" listening new age music ! You won't reach our paradise this way ! Train">
+	LINE <" again! No artificial means needed !!!! ">
+	LINE <"">
+	LINE <"-°2Between 10 and 15°1...Argh...Throw your techno tapes away !!!What a shame">
+	LINE <" you are ! Are you still able to wonder what you are exactly ? You are in">
+	LINE <" total red zone and the contamination is destroying your body and your">
+	LINE <" soul...Your life looks dark , your TV set is your best friend , you">
+	LINE <" already thought about fucking your dog...Perhaps dreams can rescue you !">
+	LINE <"">
+	LINE <"-°2Less than 10°1...Ever thought about suicide ? Not ? Well , you should...">
+	END_PAGE
+
+	LINE <"">
+	LINE <"">
+	LINE <"">
+	LINE <"">
+	LINE <"">
+	LINE <"">
+	LINE <"°1Just give me some informations or some reactions about you and this psycho">
+	LINE <"test ! If you want to make a psycho test for your group,then send it to me..">
+	LINE <"We will insert it in the psycho-area ( next issue ) ">
+	LINE <"You may find my address in another section of this issue (Antony)">
+	LINE <"">
+	LINE <"                                           °2ANTONY/DreamDealers">
+	END_ARTICLE

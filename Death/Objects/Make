@@ -1,0 +1,13 @@
+
+
+FROM  Death:Objects/MainDeath.o
+   Death:Objects/DeathStartup.o
+   Death:Objects/Extensions.o
+   Death:Objects/Parser.o
+
+TO RAM:Death
+
+NOALVS
+;;NODEBUG
+SMALLCODE
+SMALLDATA

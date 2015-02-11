@@ -1,0 +1,10 @@
+FROM Livetro:Obj/Livetro.o Livetro:Obj/Infinite.o
+     Livetro:Obj/ChessField.o Livetro:Obj/Gels.o
+To Livetro:Obj/Live.o
+
+VERBOSE
+SMALLCODE
+SMALLDATA
+NODEBUG
+NOICONS
+PRELINK

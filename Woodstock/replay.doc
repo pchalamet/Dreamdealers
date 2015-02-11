@@ -1,0 +1,38 @@
+
+;нннннннннннннннннннннннннннннннннннннннннннннннн
+;н Call P61_Init to initialize the playroutine	н
+;н D0 --> Timer detection (for CIA-version)	н
+;н A0 --> Address to the module			н
+;н A1 --> Address to samples/0 if in the module	н
+;н A2 --> Address to sample buffer		н
+;н D0 <-- 0 if succeeded			н
+;н A6 <-- $DFF000				н
+;н 		Uses D0-A6			н
+;нннннннннннннннннннннннннннннннннннннннннннннннн
+
+P61_Init
+
+
+
+;нннннннннннннннннннннннннннннннннннннннннннннннн
+;н Call P61_Music every frame to play the music	н
+;н	  _NOT_ if CIA-version is used!		н
+;н A6 --> Customchip baseaddress ($DFF000)	н
+;н          	Uses A0-A5/D0-D7		н
+;нннннннннннннннннннннннннннннннннннннннннннннннн
+
+P61_Music
+
+
+
+
+
+
+
+
+;нннннннннннннннннннннннннннннннннннннннннннннннн
+;н     	Call P61_End to stop the music		н
+;н   A6 --> Customchip baseaddress ($DFF000)	н
+;н		Uses D0/D1/A0/A1/A3		н
+;нннннннннннннннннннннннннннннннннннннннннннннннн
+P61_End

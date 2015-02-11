@@ -1,0 +1,58 @@
+
+*******************************
+* SCRIPT D'INIT POUR LIVE AGA *
+*******************************
+
+
+
+
+**************************************
+* TOUTES LES DEFINITIONS DE LIVE AGA *
+**************************************
+
+
+* definition de la palette system de Live
+SET_COLOR 0,$FF,$FF,$FF
+LET "BLANC",0
+SET_COLOR 1,$00,$00,$FF
+LET "BLEU",1
+SET_COLOR 2,$FF,$00,$00
+LET "ROUGE",2
+
+
+* chargement des articles
+LOAD_ARTICLE "Credits","Live:Articles/Credits"
+
+
+
+* chargement des cliparts
+LOAD_CLIPART "Elephant","Live:Cliparts/Elephoops.IFF"
+LOAD_CLIPART "Dino","Live:Clipart/Dinozoops.IFF"
+
+
+
+* chargement de la music principal de Live
+LOAD_MUSIC "Live:Music/mod.Raging Fire"
+
+
+
+* Le menu principal de Live
+START_DEFINE_MENU "Main Menu",30,30,200,100,BLANC:
+	START_DEFINE_MENU_PAGE 1
+		DISPLAY_CLIPART 10,20,Elephant
+		DISPLAY_TEXT 20,5,ROUGE,"MaIn MeNu"
+		MENU_ENTRY 10,20,60,10,BLEU,"Credits",(DISPLAY_ARTICLE "Credits")
+	END_DEFINE_MENU_PAGE
+END_DEFINE_MENU
+
+
+
+
+
+*******************************
+* LIVE COMMENCE REELEMENT ICI *
+*******************************
+ZOOM_BACKGROUND "Live:IFF/Background.IFF"
+PLAY_MUSIC
+DISPLAY_MENU "Main Menu"
+

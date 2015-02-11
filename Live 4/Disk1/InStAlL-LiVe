@@ -1,0 +1,125 @@
+;
+; LIVE InStAlL ScRiPt !!
+; $VER: Live Install Script for installer v1.1 (3/Jan/94)
+;
+
+(
+   (complete 0)
+; Remove these two assigns first
+   (makeassign "LIVE_1:")
+   (makeassign "LIVE_2:")
+
+; Ask where to install LIVE
+   (set @default-dest "Work:")
+   (set dest1
+      (askdir
+         (prompt "Select the location to install the LIVE directory.")
+         (help "Choose a destination partition or directory"
+                 " to contain LIVE. The Installer will"
+                 " create a directory called 'LIVE' in the"
+                 " location directory you choose and then copy"
+                 " LIVE's files to it."
+         (default @default-dest)
+         )
+      )
+   )
+
+   (set @default-dest (tackon dest1 "LIVE"))
+
+   (if (exists @default-dest
+               (noreq))
+      (message "\n\nThe LIVE Directory already exists.\n"
+               "Do you still want to install LIVE ?\n\n"
+               "If you decide to continue, then LIVE will be"
+               " be merged into this old directory.\n\n"
+               "Anyway, it is strongly advised to stop the"
+               " installation, to erase the old LIVE directory,"
+               " to remove the ASSIGNs in your user-startup"
+               " and to re-install LIVE again.")
+      (message "\n\n\n\n\nLIVE will be installed in " @default-dest
+               "\n\nPlease confirm this action."))
+
+; Make some directories
+   (makedir @default-dest (safe) (infos))
+   (makedir ("%s/TiTlEpIc" @default-dest) (safe))
+   (makedir ("%s/MuSiC" @default-dest) (safe))
+   (makedir ("%s/DeSiGn It" @default-dest) (safe))
+   (makedir ("%s/GaLlErY" @default-dest) (safe))
+   (complete 5)
+
+; Install disk 1
+   (askdisk (prompt "\n\n\n\n\nPlease insert the first disk of LIVE #4")
+            (help "\n\n\n\n\nDon't ask why! Do what we want you to do!!!")
+            (dest "LIVE_1"))
+
+   (set picdest (tackon @default-dest "TiTlEpIc/"))
+   (copyfiles (source "LIVE_1:TiTlEpIc/")
+              (dest picdest)
+              (all))
+
+   (complete 10)
+   (set musicdest (tackon @default-dest "MuSiC/"))
+   (copyfiles (source "LIVE_1:MuSiC/")
+              (dest musicdest)
+              (all))
+
+   (complete 20)
+   (set designdest (tackon @default-dest "DeSiGn It/"))
+   (copyfiles (source "LIVE_1:DeSiGn It/")
+              (dest designdest)
+              (all))
+
+   (complete 25)
+   (copylib (source "LIVE_1:LiBs/")
+             (dest "LIBS:"))
+
+
+   (complete 30)
+   (copyfiles (source "LIVE_1:LiVe")
+              (dest @default-dest))
+
+   (copyfiles (source "LIVE_1:LiVe.info")
+              (dest @default-dest))
+
+   (complete 50)
+; Install disk 2
+   (askdisk (prompt "\n\n\n\n\nPlease insert the second disk of LIVE #4")
+            (help "\n\n\n\n\nDon't ask why! Do what we want you to do!!!")
+            (dest "LIVE_2"))
+
+   (set gallerydest (tackon @default-dest "GalLeRy/"))
+   (copyfiles (source "LIVE_2:gallery")
+              (dest gallerydest)
+              (all))
+
+   (complete 75)
+   (set musicdest (tackon @default-dest "MuSiC/"))
+   (copyfiles (source "LIVE_2:MuSiC/")
+              (dest musicdest)
+              (all))
+
+   (complete 95)
+; ask to modify the user-startup
+   (startup "LIVE"
+            (prompt "\n\nDo you want to put the following lines\n"
+                    "in your startup-sequence ?\n\n\n"
+                    ("assign LIVE_1: %s\n" @default-dest)
+                    ("assign LIVE_2: %s\n" @default-dest))
+            (help "\n\n\nLive need these listed logical ASSIGNs to"
+                  " find its files."
+                  " If you want, these ASSIGNs"
+                  " will be written in you startup-sequence"
+                  " if not, you will have to write them yourself"
+                  " in your startup-sequence otherwise LIVE"
+                  " won't work.")
+            (command ("assign LIVE_1: %s\n" @default-dest)
+                     ("assign LIVE_2: %s\n" @default-dest)))
+
+; Some assigns to play with LIVE right now !
+   (makeassign "LIVE_1:" @default-dest)
+   (makeassign "LIVE_2:" @default-dest)
+
+   (complete 100)
+
+; Houba! That's done !
+)

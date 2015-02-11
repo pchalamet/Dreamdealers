@@ -1,0 +1,15 @@
+
+; **********************************************
+; * Fuck CBM !  Install really the 3.x system. *
+; * Remove the following 3 lines if you like   *
+; * displays bugs...                           *
+; **********************************************
+SetPatch QUIET
+Assign >NIL: ENV: Sys:ENV
+IPrefs
+
+
+
+; aarrrhhh!  Time to launch the demo !
+Type S:Logo.ANSI
+Woodstock-DRD.exe

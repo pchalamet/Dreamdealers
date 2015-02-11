@@ -1,0 +1,45 @@
+
+Help_Article
+	BEGIN_ARTICLE
+	LINE <"                 °2Zoupi!!°1 Welcome on the HELP screen...">
+	LINE <"">
+	LINE <"°3Mouse Functions:">
+	LINE <"">
+	LINE <"°2The Menus are the things that are highlighten when then mouse">
+	LINE <"is over.">
+	LINE <"°1Shake the mouse and click with left mouse button to enter in a menu.">
+	LINE <"Press right mouse button to go to the previous menu.">
+	LINE <"">
+	LINE <"°3Keyboard Functions:">
+	LINE <"">
+	LINE <"°2LEFT AMIGA + ARROWS°1 to simulate mouse (like Workbench...)">
+	LINE <"°2LEFT AMIGA + LEFT ALT°1 to simulate left mouse click">
+	LINE <"°2BACKSPACE°2 stand for Menu Return (like right mouse button)">
+	LINE <"°2LEFT AND RIGHT ARROWS°1 to go left and right in articles/messages">
+	LINE <"°2UP AND DOWN ARROWS°1 to incrize/decrize volume">
+	LINE <"°2HELP or H°1 to go to the help page">
+	LINE <"°2D°1 to change the dezign.. (hehe great option!)">
+	LINE <"°2S°1 to turn ON/OFF the music">
+	LINE <"°2M°1 to go to the main menu">
+	LINE <"°2L°1 to load a module with a requester">
+	LINE <"°2W°1 to return to the Workbench screen">
+	LINE <"°2ESCAPE°1 two quick times to exit LIVE">
+	LINE <"">
+	LINE <"              °3Well... that's SEEMS to be all...">
+	LINE <"">
+	LINE <"°2LAST MINUTE NOTE:">
+	LINE <"°1Sync speaking: well.. it's seems that my input handler">
+	LINE <"for catching the keys for Live has a bug...">
+	LINE <"So don't play too much with the go to WB feature">
+	LINE <"Coz' you might have some surprise!">
+	LINE <"">
+	LINE <"Live can also be installed on °3hard disk°1. For that">
+	LINE <"load your WB and click on the Install Live Icon,">
+	LINE <"then follow the installer!">
+	LINE <"">
+	LINE <"And now, just in case of crashes...">
+	LINE <"°3DreamDealers is NOT responsible of lost of datas">
+	LINE <"on hard disks resulting of a use of Live.">
+	LINE <"It NEVER happens with my Amiga but who knows ?!">
+	LINE <"Ok.. That's told!">
+	END_ARTICLE

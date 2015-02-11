@@ -1,0 +1,63 @@
+
+
+    **************************
+   **                        **
+  ***  script pour Live AGA  ***
+ ****                        ****
+**********************************
+
+
+
+
+*****************************
+*                           *
+*  chargement des ClipArts  *
+*                           *
+*****************************
+LOAD_CLIPART "Live:Cliparts/Elephant"
+
+
+
+
+*****************************
+*                           *
+*  chargement des Articles  *
+*                           *
+*****************************
+* LOAD_ARTICLE "Live:Article/Fish'n'Tips"
+
+
+
+
+**************************
+*                        *
+* chargement de la music *
+*                        *
+**************************
+* LOAD_MUSIC "Live:Modules/mod.TheDeepFight"
+
+
+
+
+******************************************
+*                                        *
+*  Mise en place de l'écran de Live AGA  *
+*                                        *
+******************************************
+OPEN_LIVE_SCREEN
+ZOOM_BACKGROUND "Live:IFF/Poisson.IFF"
+
+SET_COLOR 128,255,255,255
+SET_COLOR 129,0,0,0
+
+DISPLAY_CLIPART "Elephant",440,40
+* PLAY_MUSIC
+LIVE_SCREEN_TO_FRONT
+
+
+*
+* Let's destroy mouse button
+*
+WAIT_MOUSE_DOWN
+CLOSE_ALL_WINDOWS
+WAIT_MOUSE_UP

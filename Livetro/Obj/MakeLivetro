@@ -1,0 +1,13 @@
+ROOT Livetro:Obj/Root.o
+OVLYMGR asm:Lib/Ovs.o
+TO Livetro.EXE
+
+VERBOSE
+SMALLCODE
+SMALLDATA
+NODEBUG
+NOICONS
+
+OVERLAY
+Livetro:Obj/Live.o
+#
