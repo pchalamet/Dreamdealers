@@ -12,13 +12,12 @@ Various artists should be thanked too !
 - Clawz
 - Chrylian
 - Moby
-- and many more
 
 Included !
 - Woodstock : https://www.youtube.com/watch?v=-dunWUsxR5o
 - Corinne : https://www.youtube.com/watch?v=gjvus7CLUIc
-- Live
-- Raging Fire
-and much more !
+- Live : http://www.pouet.net/prod.php?which=12342
+- Raging Fire : http://www.pouet.net/prod.php?which=20225
+- and many more !
 
 Enjoy !
